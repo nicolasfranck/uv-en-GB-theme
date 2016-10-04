@@ -1,1 +1,23 @@
 @theme-img-path: '../../../themes/@{theme}/img/';
+
+#app{
+    .headerPanel{
+        .options{
+            background-image: url('@{theme-img-path}ub_logo_i.png');
+            background-repeat: no-repeat;
+            background-position: 5px 5px;
+            background-size: 40px auto;
+            .centerOptions{
+                display: none;
+                width: 390px;
+            }
+            .rightOptions{
+                .settings{
+                    //background: url('@{theme-img-path}hamburger.png');
+                    display: none;
+                }
+                margin-right: 7px;
+            }
+        }
+    }
+}
