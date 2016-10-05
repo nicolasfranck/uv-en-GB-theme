@@ -1,3 +1,64 @@
 @import 'variables';
 @import 'header-panel';
 @import 'footer-panel';
+
+#app {
+    .overlays {
+         > div.multiSelect {
+
+            width: 800px;
+
+            .content {
+                height: 500px;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+
+    #app {
+        .overlays {
+
+             > div.multiSelect {
+
+                width: 280px;
+
+                .content {
+
+                    height: 400px;
+
+                    .iiif-gallery-component {
+
+                        .header {
+
+                            height: auto;
+                            margin-bottom: 10px;
+
+                            .left {
+
+                                float:none;
+                                display:block;
+                                margin-bottom: 10px;
+
+                            }
+                            .right {
+
+                                float:none;
+                                display:block;
+                                margin-bottom: 10px;
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+}
